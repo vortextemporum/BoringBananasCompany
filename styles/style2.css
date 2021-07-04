@@ -1,0 +1,49 @@
+@font-face {
+font-family: 'Poppitandfinch';
+src: url('../fonts/PoppitAndFinch.otf') format('opentype');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Poppitandfinchsans';
+src: url('../fonts/PoppitAndFinchSans.otf') format('opentype');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Montserrat-Light';
+src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: regular;
+font-display: swap;
+}
+
+
+#bodyy {
+    background-image: url('/images/BG2.jpg');
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.montserrat {
+    font-family: Montserrat-Light, sans-serif;
+}
+.Poppitandfinch {
+    font-family: Poppitandfinch, sans-serif;
+}
+  
+.Poppitandfinchsans {
+    font-family: Poppitandfinchsans, sans-serif;
+}
+
+.text-blau {
+    color: #13c5eb;
+}
+
+.bg-blau {
+    background-color: #13c5eb;
+}
