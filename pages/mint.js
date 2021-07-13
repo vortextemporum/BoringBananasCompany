@@ -6,20 +6,23 @@ import {ADDRESS, ABI} from "../config.js"
 
 export default function Mint() {
 
+  // FOR WALLET
   const [signedIn, setSignedIn] = useState(false)
 
   const [walletAddress, setWalletAddress] = useState(null)
 
+  // FOR MINTING
   const [how_many_bananas, set_how_many_bananas] = useState(1)
 
   const [bananaContract, setBananaContract] = useState(null)
+
+  // INFO FROM SMART Contract
 
   const [totalSupply, setTotalSupply] = useState(0)
 
   const [saleStarted, setSaleStarted] = useState(false)
 
   const [bananaPrice, setBananaPrice] = useState(0)
-
 
   useEffect( async() => { 
 
@@ -39,7 +42,7 @@ export default function Mint() {
     window.ethereum.enable()
       .then(function (accounts) {
         window.web3.eth.net.getNetworkType()
-        // checks if connected network is mainnet
+        // checks if connected network is mainnet (change this to rinkeby if you wanna test on testnet)
         .then((network) => {console.log(network);if(network != "main"){alert("You are on " + network+ " network. Change network to mainnet or you won't be able to do anything here")} });  
         let wallet = accounts[0]
         setWalletAddress(wallet)
