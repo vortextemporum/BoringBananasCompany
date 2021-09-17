@@ -201,8 +201,6 @@ interface IERC721 is IERC165 {
 
 pragma solidity ^0.8.0;
 
-import "../IERC721.sol";
-
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
@@ -228,8 +226,6 @@ interface IERC721Metadata is IERC721 {
 // File: @openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol
 
 pragma solidity ^0.8.0;
-
-import "../IERC721.sol";
 
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
@@ -311,7 +307,6 @@ abstract contract ERC165 is IERC165 {
 }
 
 // File: @openzeppelin/contracts/math/SafeMath.sol
-
 
 
 pragma solidity ^0.8.0;
@@ -1122,8 +1117,6 @@ library EnumerableSet {
 
 
 pragma solidity ^0.8.0;
-
-import "./EnumerableSet.sol";
 
 /**
  * @dev Library for managing an enumerable variant of Solidity's
