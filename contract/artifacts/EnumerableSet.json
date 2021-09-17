@@ -1,0 +1,80 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212205d182a33f349a3fe73a69e9b8658eb32cf820b940e74eccc55b6cf8607e9bbed64736f6c63430007060033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x5D XOR 0x2A CALLER RETURN 0x49 LOG3 INVALID PUSH20 0xA69E9B8658EB32CF820B940E74ECCC55B6CF8607 0xE9 0xBB 0xED PUSH5 0x736F6C6343 STOP SMOD MOD STOP CALLER ",
+			"sourceMap": "27370:8902:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212205d182a33f349a3fe73a69e9b8658eb32cf820b940e74eccc55b6cf8607e9bbed64736f6c63430007060033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x5D XOR 0x2A CALLER RETURN 0x49 LOG3 INVALID PUSH20 0xA69E9B8658EB32CF820B940E74ECCC55B6CF8607 0xE9 0xBB 0xED PUSH5 0x736F6C6343 STOP SMOD MOD STOP CALLER ",
+			"sourceMap": "27370:8902:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"_add(struct EnumerableSet.Set storage pointer,bytes32)": "infinite",
+				"_at(struct EnumerableSet.Set storage pointer,uint256)": "infinite",
+				"_contains(struct EnumerableSet.Set storage pointer,bytes32)": "infinite",
+				"_length(struct EnumerableSet.Set storage pointer)": "infinite",
+				"_remove(struct EnumerableSet.Set storage pointer,bytes32)": "infinite",
+				"add(struct EnumerableSet.AddressSet storage pointer,address)": "infinite",
+				"add(struct EnumerableSet.Bytes32Set storage pointer,bytes32)": "infinite",
+				"add(struct EnumerableSet.UintSet storage pointer,uint256)": "infinite",
+				"at(struct EnumerableSet.AddressSet storage pointer,uint256)": "infinite",
+				"at(struct EnumerableSet.Bytes32Set storage pointer,uint256)": "infinite",
+				"at(struct EnumerableSet.UintSet storage pointer,uint256)": "infinite",
+				"contains(struct EnumerableSet.AddressSet storage pointer,address)": "infinite",
+				"contains(struct EnumerableSet.Bytes32Set storage pointer,bytes32)": "infinite",
+				"contains(struct EnumerableSet.UintSet storage pointer,uint256)": "infinite",
+				"length(struct EnumerableSet.AddressSet storage pointer)": "infinite",
+				"length(struct EnumerableSet.Bytes32Set storage pointer)": "infinite",
+				"length(struct EnumerableSet.UintSet storage pointer)": "infinite",
+				"remove(struct EnumerableSet.AddressSet storage pointer,address)": "infinite",
+				"remove(struct EnumerableSet.Bytes32Set storage pointer,bytes32)": "infinite",
+				"remove(struct EnumerableSet.UintSet storage pointer,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
